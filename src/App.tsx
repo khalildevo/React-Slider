@@ -14,6 +14,7 @@ function App() {
   
     return () => clearInterval(interval);
     
+    
   });
   const width = window.innerWidth;
     let dotSize = (width - (width*0.2))/(slides.length - 1);
